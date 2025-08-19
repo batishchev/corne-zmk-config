@@ -118,10 +118,10 @@
 
         both {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans           &trans  &trans  &rgb_ug RGB_COLOR_HSB(125,44,57)  &rgb_ug RGB_BRI  &rgb_ug RGB_TOG
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_EFF  &trans  &trans  &trans                            &rgb_ug RGB_BRD  &rgb_ug RGB_ON
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_EFR  &trans  &trans  &trans                            &trans           &rgb_ug RGB_OFF
-                        &trans  &trans  &trans    &trans           &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans           &trans           &trans
             >;
         };
     };
